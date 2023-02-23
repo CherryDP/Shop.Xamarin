@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GaleriaKot.MainPage">
+
+    <StackLayout x:Name="background" BackgroundColor="Orange" Spacing="0">
+
+
+
+        <Label BackgroundColor="Orange"
+               Text="Pyszne.pl"
+               HeightRequest="50"
+               VerticalTextAlignment="Center"
+               TextColor="White"
+               FontSize="Medium">
+
+        </Label>
+
+      
+
+        <Image Source="wendy" x:Name="shop" Aspect="AspectFill"></Image>
+
+        <FlexLayout JustifyContent="SpaceBetween">
+
+            <Button BackgroundColor="White" Margin="10"
+                    Text="PREV"
+                    WidthRequest = "100"
+                    HeightRequest = "70"           
+                    TextColor="Orange"
+                    Clicked="previous_Clicked">
+
+            </Button>
+
+            <Button Text="Zamów" 
+                    BackgroundColor="White"
+                    WidthRequest = "100"
+                    HeightRequest = "70"           
+                    TextColor="Orange" Margin="10"
+                    Clicked="Button_Clicked">
+                
+            </Button>
+
+            <Button Text="NEXT"
+                    BackgroundColor="White"
+                    WidthRequest = "100"
+                    HeightRequest = "70"
+                    TextColor="Orange"
+                    Clicked="next_Clicked" Margin="10">
+
+            </Button>
+
+        </FlexLayout>
+
+        <FlexLayout Direction="Column" AlignItems="Start">
+
+            <Label FontSize="Medium" TextColor="White" x:Name="Rate" Text="Gwiazdki: 2.5"></Label>
+            <Label  FontSize="Medium" TextColor="White" x:Name="Opinion" Text="Opinie: stare ale jare"></Label>
+            <Label FontSize="Medium" TextColor="White" x:Name="Cost" Text="Koszt dostawy: 4"></Label>
+
+        </FlexLayout>
+
+    </StackLayout>
+
+</ContentPage>

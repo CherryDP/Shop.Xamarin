@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LGeAx2ifLXW68SReuPpCQpBWMSHhTJ2v5TQwa+99IkCsSTo7uEHxOH20MrxfmRfn08n8xsL7LwxywtT2r0ypTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\GaleriaKot\\GaleriaKot\\GaleriaKot.iOS\\GaleriaKot.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
